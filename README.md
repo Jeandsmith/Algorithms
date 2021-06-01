@@ -22,3 +22,12 @@ So far I have implemented:
 
 
 ## Bubble Sort
+
+![run test]("Results/Bubblesort/Steps-per-run-of-N-elements-png.png")
+
+This is a plot of the time the algorithm took to finish sorting a list of
+elements ranging from 100 elements to 10k elements.
+
+![run test]("Results/Bubblesort/figure.png")
+
+The before and after of the array of 10K elements.
