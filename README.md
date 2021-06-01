@@ -36,7 +36,7 @@ The before and after of the array of 10K elements.
 
 ## Selection Sort
 
-![plot] (Results/SelectionSort/selection-sort.png)
+![plot] (Results/Selection-Sort/selection-sort.png)
 
 The above figure show the before and after sorting of an array of 10k elements.
 
