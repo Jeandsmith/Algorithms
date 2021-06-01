@@ -25,6 +25,8 @@ So far I have implemented:
 
 ## Bubble Sort
 
+h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+
 ![Run time](Results/Bubblesort/Steps-per-run-of-N-elements-png.png)
 
 This is a plot of the time the algorithm took to finish sorting a list of
