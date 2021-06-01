@@ -28,7 +28,8 @@ So far I have implemented:
 ![Run time](Results/Bubblesort/Steps-per-run-of-N-elements-png.png)
 
 This is a plot of the time the algorithm took to finish sorting a list of
-elements ranging from 100 elements to 10k elements. It show the time complexity is $O(N^2)$
+elements ranging from 100 elements to 10k elements. It show the time complexity is 
+[img]http://www.sciweavers.org/tex2img.php?eq=O%28N%5E2%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0[/img]
 
 ![Bubble unsorted and sorted](Results/Bubblesort/figure.png)
 
@@ -40,5 +41,6 @@ The before and after of the array of 10K elements.
 
 The above figure show the before and after sorting of an array of 10k elements.
 
-Selection sort is twice as fast as Bubble sort with a time complexity of $\frac{N^2}{2}$ but fall 
+Selection sort is twice as fast as Bubble sort with a time complexity of 
+[img]https://bit.ly/3crcM6X[/img] but fall 
 in the category of $O(N^2)$ quadratic time complexity. 
