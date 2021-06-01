@@ -1,4 +1,4 @@
-#Collection of Data Structure & Algorithms Implemented in Python
+# Collection of Data Structure & Algorithms Implemented in Python
 
 I workded on implemented theses textbook algorithms with the goal 
 or having a refresher before and to work a bit more in my 
@@ -28,7 +28,7 @@ So far I have implemented:
 ![Run time](Results/Bubblesort/Steps-per-run-of-N-elements-png.png)
 
 This is a plot of the time the algorithm took to finish sorting a list of
-elements ranging from 100 elements to 10k elements. It show the time complexity is O(N<sup>&‌#178;</sup>)
+elements ranging from 100 elements to 10k elements. It show the time complexity is O(N<sup>2</sup>)
 
 ![Bubble unsorted and sorted](Results/Bubblesort/figure.png)
 
@@ -41,5 +41,5 @@ The before and after of the array of 10K elements.
 The above figure show the before and after sorting of an array of 10k elements.
 
 Selection sort is twice as fast as Bubble sort with a time complexity of 
-&fracN<sup>2</sup>2 but fall 
-in the category of O(N<sup>&‌#178;</sup>) quadratic time complexity. 
+N<sup>2</sup>/2 but fall 
+in the category of O(N<sup>2</sup>) quadratic time complexity. 
