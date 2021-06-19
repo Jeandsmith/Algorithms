@@ -59,7 +59,6 @@ I implemented extremly basic search auto completion using the trie tree.
 
 If you want to run it, open the file `runner.py` and run.
 
-![Image](Results/trie.png)
-
+![image](Results/trie.png)
 
 ## Graph
