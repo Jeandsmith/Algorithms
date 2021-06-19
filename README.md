@@ -57,7 +57,9 @@ in the category of O(N<sup>2</sup>) quadratic time complexity.
 
 I implemented extremly basic search auto completion using the trie tree. 
 
-![vid](C:\Users\jenga\Videos\tree_search.mp4)
+If you want to run it, open the file `runner.py` and run.
+
+![Watch on Youtube](E:\Web\Data-Structure-And-Algorithms\Results\trie.png)
 
 
 ## Graph
