@@ -1,4 +1,5 @@
 
+from tkinter.constants import CURRENT
 from typing import List
 
 
@@ -124,6 +125,59 @@ class QuickSort:
                 A[l] = A[r]
                 A[r] = tmp
             l += 1
+
+class TrieNode:
+    def __init__(self):
+        self.data = {}
+
+class TrieTree:
+    def __init__(self):
+        self.root = TrieNode()
+
+    def insert(self, word):
+        curr_node = self.root
+
+        for c in word:
+            if curr_node.data.get(c):
+                curr_node = curr_node.data[c]
+            else:
+                new_node = TrieNode()
+                curr_node.data[c] = new_node
+                curr_node = new_node
+        
+        curr_node.data['*'] = None
+            
+    def search(self, word):
+        curr_node = self.root
+
+        for c in word:
+            if curr_node.data.get(c):
+                curr_node = curr_node.data[c]
+            else:
+                return None
+        
+        return curr_node
+            
+    def __get_all_words(self, node: TrieNode, word="", words = []):
+
+        # Start collecting the words from the current node or the root
+        curr_node = node or self.root
+
+        for key, child in curr_node.data.items():
+            if key == "*":
+                words.append(word)
+            else:
+                self.__get_all_words(child, word + key, words)
+
+        return words
+
+    def autocomplete(self, prefix):
+
+        curr_node = self.search(prefix)
+        words = []
+        if not curr_node:
+            return None
+        return self.__get_all_words(curr_node, word=prefix, words=words)
 
 class DFS:
     """

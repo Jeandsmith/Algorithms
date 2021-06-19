@@ -48,8 +48,16 @@ in the category of O(N<sup>2</sup>) quadratic time complexity.
 
 ## Linked List
 
+    Some figures coming later!
+
 ## Tree 
 
 <!-- Add info -->
+### Trie Tree
+
+I implemented extremly basic search auto completion using the trie tree. 
+
+![vid](C:\Users\jenga\Videos\tree_search.mp4)
+
 
 ## Graph
